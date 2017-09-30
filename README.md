@@ -5,7 +5,7 @@ A quick react boiler plates with various configurations to get started.
 
 ### branch [ react ] -- React and css modules
 
-### branch [ react+redux ] -- React and redux [In progress]
+### branch [ react+redux ] -- React and redux
 
 ### branch [ react+redux+redux-saga ] -- React, redux and redux-saga [In progress]
 
