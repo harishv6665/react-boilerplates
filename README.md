@@ -1,1 +1,1 @@
-https://medium.com/free-code-camp/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4
+# React boilerplate
