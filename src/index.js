@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './pages/Home/Home';
 import "./global.css";
 
-class App extends React.Component {
-    render () {
-        return <h1 className="header">React App</h1>;
-    }
-}
+const App = () => <Home />;
 
 ReactDOM.render(<App />, document.getElementById('root'));
