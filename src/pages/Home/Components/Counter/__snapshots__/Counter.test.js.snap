@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should render correctly in "debug" mode 1`] = `
+<Fragment>
+  <p
+    className="title"
+  >
+    Simple counter example using redux & redux-saga.
+    <br />
+    Demonstrating using a promise with 1 second timeout delay.
+  </p>
+  <div
+    className="wrapper"
+  >
+    <button
+      className="actionBtn"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <span
+      className="text"
+    >
+      0
+    </span>
+    <button
+      className="actionBtn"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</Fragment>
+`;
