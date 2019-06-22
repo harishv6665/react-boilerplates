@@ -29,7 +29,7 @@ Home.defaultProps = {
   dispatch: f => f
 };
 
-Home.protoTypes = {
+Home.propTypes = {
   count: PropTypes.number,
   dispatch: PropTypes.func
 };
