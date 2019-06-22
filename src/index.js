@@ -1,8 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import rootReducer from './commons/reducers/reducers';
 import Home from './pages/Home/Home';
 import "./global.css";
 
-const App = () => <Home />;
+const store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+render(
+  <Provider store={store}>
+    <Home />
+  </Provider>,
+  document.getElementById('root')
+);
