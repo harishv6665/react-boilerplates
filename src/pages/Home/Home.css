@@ -1,7 +1,29 @@
-.title {
-  text-transform: uppercase;
-  color: #3F51B5;
-  text-align: center;
-  margin: 40px;
-  font-size: 50px;
+.wrapper {
+
+}
+
+.header {
+  height: 50px;
+  border-bottom: 1px solid;
+}
+
+.header__button {
+  height: 30px;
+  margin: 10px;
+  padding: 0 10px
+}
+
+.colWrapper {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+.col1,
+.col2 {
+  border-right: 1px solid #000;
+  width: 200px;
+}
+
+.col3 {
+
 }
